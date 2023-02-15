@@ -30,10 +30,6 @@ A QLineEdit is created to allow the user to search the table for specific person
 
 The widgets are placed in a _QHBoxLayout_ and _QVBoxLayout_ to get the desired layout.
 
-## Running the code
-
-To run the code, you will need to have Qt installed on your system. You can then build and run the code using the Qt Creator IDE, or by using the qmake tool to generate a Makefile and then running make.
-
 The next step is to create the layouts for the widgets. You can use a _QVBoxLayout_ to arrange the widgets vertically, with the table view taking up the most space, and the other widgets stacked on top of each other above it. You can also use a _QHBoxLayout_ to arrange the search box and the "Add" button horizontally.
 
 Here's an example of how you might set up the layouts:
@@ -58,5 +54,9 @@ In this example, the search box and "Add" button are added to the top of the mai
 You can also set the size and position of the window, set the window title, etc.
 
 Finally, the _app.exec()_ function is called to start the event loop and enter the main loop of the application. This causes the application to wait for user input, and process events such as mouse clicks, key presses, and window resizing. The event loop exits when the user closes the main window or exits the application.
+
+## Running the code
+
+To run the code, you will need to have Qt installed on your system. You can then build and run the code using the Qt Creator IDE, or by using the qmake tool to generate a Makefile and then running make.
 
 This is just an example of how you might set up a simple table view with sorting and filtering. You can customize the appearance of the table view and its items using stylesheets, and you can add other features such as editing and deleting rows.
